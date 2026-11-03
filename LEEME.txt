@@ -1,0 +1,39 @@
+MoveMouse — Windows
+
+1. Abre MoveMouse.exe con doble clic.
+2. Pulsa Iniciar: el cursor comienza a moverse continuamente hacia la derecha.
+3. Envía movimiento relativo mediante SendInput a 120 unidades por segundo,
+   sin pausas de 5 minutos. La velocidad visual depende de la sensibilidad
+   del juego y de la configuración del mouse de Windows.
+   Sigue enviando movimiento al llegar al borde, sin saltar al borde izquierdo.
+4. Pulsa ESPACIO para detenerlo, incluso si estás usando otra ventana.
+   También puedes pulsar Detener o cerrar la ventana.
+
+Puedes minimizar la ventana y seguirá funcionando mientras el equipo esté activo.
+No instala nada, no necesita permisos de administrador ni conexión a Internet.
+Al volver a pulsar Iniciar, el movimiento comienza de inmediato.
+Espacio solo detiene el movimiento; para reanudarlo, pulsa Iniciar.
+Mientras está activo, MoveMouse reserva Espacio como atajo global.
+El movimiento puede interferir con el uso del mouse: detenlo si necesitas trabajar.
+
+Compatibilidad con juegos:
+- Inicia el movimiento y vuelve al juego con Alt+Tab.
+- Algunos juegos o sistemas anticheat ignoran la entrada simulada, incluso
+  si Windows la acepta. SendInput no garantiza mover la cámara en Fortnite
+  ni evitar las restricciones de experiencia o las comprobaciones de inactividad.
+- No usa inyección en el juego ni intenta eludir el anticheat.
+- La automatización puede estar restringida por las reglas del juego.
+
+El código fuente está en MoveMouse.cs. Para recompilar desde PowerShell,
+abierto en la carpeta del código fuente:
+
+.\build.ps1
+
+El resultado se guarda en dist\MoveMouse.exe y NO está firmado digitalmente.
+No reemplaza el ejecutable original. Windows puede bloquear esta compilación
+con el Control inteligente de aplicaciones: recompilar no elimina ese bloqueo.
+No es necesario ni recomendable desactivar la protección de Windows.
+
+Consulta README.md para detalles del proyecto y SIGNPATH_SETUP.md para preparar
+una solicitud de firma a SignPath. La aprobación y la firma siguen pendientes.
+Licencia: MIT (archivo LICENSE).

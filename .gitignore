@@ -1,0 +1,9 @@
+/dist/
+/signed/
+/MoveMouse.exe
+*.pdb
+*.pfx
+*.p12
+*.key
+.env
+.vs/
