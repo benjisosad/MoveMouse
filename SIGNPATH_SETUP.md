@@ -4,6 +4,10 @@ Repositorio: https://github.com/benjisosad/MoveMouse.
 La preparacion del repositorio no equivale a una solicitud enviada o aprobada.
 Aun no hay ejecutable firmado.
 
+Primera version: https://github.com/benjisosad/MoveMouse/releases/tag/v1.0.0-unsigned.
+Compilacion verificada: https://github.com/benjisosad/MoveMouse/actions/runs/41669088664.
+Respuestas del formulario: [SIGNPATH_APPLICATION.md](SIGNPATH_APPLICATION.md).
+
 ## 1. Revisar y publicar
 
 1. Confirma que puedes publicar el codigo con la licencia MIT incluida. Ajusta
@@ -41,7 +45,9 @@ Texto orientativo para completar con datos reales:
 > Signing: MoveMouse.exe inside a GitHub Actions ZIP artifact; source and build
 > workflow are public. Each release will require manual signing approval.
 > Maintainers/reviewers/approvers: https://github.com/benjisosad
-> Releases and project history: PENDING_RELEASE_URL_AND_ACTUAL_HISTORY
+> Releases: https://github.com/benjisosad/MoveMouse/releases/tag/v1.0.0-unsigned
+> History: New personal project, first published on November 3, 2026.
+> No established community reputation or independent coverage is claimed.
 
 No inventes antiguedad, usuarios, reputacion ni aprobaciones. SignPath puede pedir
 informacion adicional o rechazar la solicitud.

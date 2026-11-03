@@ -56,6 +56,8 @@ Para cambiar la version, actualiza ambos atributos de version en `AssemblyInfo.c
 
 La politica, privacidad y roles estan en [CODE_SIGNING.md](CODE_SIGNING.md).
 Los pasos de publicacion y solicitud estan en [SIGNPATH_SETUP.md](SIGNPATH_SETUP.md).
+Las respuestas para el formulario estan en [SIGNPATH_APPLICATION.md](SIGNPATH_APPLICATION.md);
+el envio todavia requiere los datos, consentimientos y reCAPTCHA del responsable.
 No hay certificados ni claves privadas incluidos en este repositorio.
 
 La firma solo se solicita manualmente desde la rama predeterminada, una vez
